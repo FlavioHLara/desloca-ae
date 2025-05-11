@@ -31,16 +31,25 @@ nav {
     align-items: center;
     background: #0f365f;
     height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-list {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    color: white;
 }
 
 .mobile-menu {
