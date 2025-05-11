@@ -11,8 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 a {
     color: #fff;
     text-decoration: none;
@@ -123,7 +121,6 @@ nav {
 
 .titulo {
     text-align: center;
-
 }
 
 
@@ -212,17 +209,12 @@ header a {
     header a {
         font-size: 1.3rem;
     }
-
-
     .titulo h1 {
         font-size: 2rem;
     }
-
-
     .iconesrodape a {
         font-size: 1rem;
     }
-
     .direitos p {
         font-size: 1rem;
     }
@@ -232,26 +224,21 @@ header a {
     header a {
         font-size: 1rem;
     }
-
     .titulo h1 {
         font-size: 1.8rem;
     }
-
     .iconesrodape a {
         font-size: 0.8rem;
     }
-
     .direitos p {
         font-size: 0.8rem;
     }
 }
 
 .slideshow-container {
-
     width: 100%;
     position: relative;
     margin: auto;
-
 }
 
 .slideshow {
@@ -286,9 +273,7 @@ header a {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 .legenda {
-
     width: auto;
     color: #fdfdfd;
     font-size: 0.9em;
@@ -298,26 +283,21 @@ header a {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
     left: 10%;
-
 }
 
 .numeracao {
-
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-
 }
 
 .paginacao {
-
     width:100%;
     float:left;
     margin: 10px 0;
     text-align: center;
-
 }
 
 .dot {
@@ -390,12 +370,13 @@ header a {
 }
 
 .quadro-novidades {
-    width: 90%;
+    width: 97%;
     margin: 30px auto;
     border: 2px solid #0f365f;
     border-radius: 10px;
     padding: 10px;
     background-color: #f0f8ff;
+    height: 110px ;
 }
 
 .quadro-novidades h2 {
@@ -403,10 +384,94 @@ header a {
     color: #0f365f;
 }
 
+.quadro-novidades h3 {
+    text-align: center;
+    color: #0f365f;
+}
+
 #mapa {
-    width: 90%;
+    width: 99%;
     height: 400px;
     margin: 30px auto;
     border: 2px solid #0f365f;
     border-radius: 10px;
+}
+
+.novidades-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.novidades-header h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #0f365f;
+    font-size: 1.8rem;
+}
+
+.botao-novidades {
+    background-color: #0f365f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.botao-novidades:hover {
+    background-color: #092544;
+}
+
+.caixa-direcoes {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    width: 280px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.icone {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.input-direcao {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .caixa-direcoes {
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 40px);
+    }
 }

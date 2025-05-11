@@ -30,7 +30,44 @@
     </nav>
 </header>
 
-<div style="width: 100%" id="mapa"></div>
+<div class="quadro-novidades">
+    <div class="novidades-header">
+        <h2>Novidades</h2>
+        <button class="botao-novidades" onclick="fecharNovidades()">X</button>
+    </div>
+    <div class="slideshow-container">
+        <div class="slideshow fade">
+            <h3>Nova funcionalidade de visualizar mapa!</h3>
+        </div>
+
+        <div class="slideshow fade">
+            <h3>Estreia do Desloca Aê!</h3>
+        </div>
+
+        <div class="slideshow fade">
+            <h3>Novas atualizações em breve!</h3>
+        </div>
+
+        <div class="paginacao">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+</div>
+
+<div id="mapa">
+    <div class="caixa-direcoes">
+        <div class="campo">
+            <span class="icone">⬤</span>
+            <input type="text" placeholder="De onde?" class="input-direcao" />
+        </div>
+        <div class="campo">
+            <span class="icone">🔍</span>
+            <input type="text" placeholder="Para onde?" class="input-direcao" />
+        </div>
+    </div>
+</div>
 
 <footer class="footer">
     <div class="footer-container">
