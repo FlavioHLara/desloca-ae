@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desloca Aê</title>
+    <link rel="stylesheet" href="assets/css/tela-home.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+<br>
+
+<header>
+    <nav>
+        <a class="logo" href="index.html" style="color: #fff;">Desloca Aê</a>
+        <div class="container-mobile-menu">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="feedbacks.html">Feedbacks</a></li>
+                <li><a href="gamificacao.html">Recompensas</a></li>
+                <li><a href="insercao.html">Notícias</a></li>
+                <li><a href="pesquisas.html">Rotas</a></li>
+                <li><a href="estatisticas.html">Estatísticas</a></li>
+                <li><a href="mapa.html">Mapa de Avaliações</a></li>
+                <li><a href="perfil.html"><i class="fas fa-user"></i> Perfil</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main>
+
+        <h1 class="titulo" style="color: black; font-weight: bold;">Desloca Aê</h1>
+
+        <div class="container1" id="sobre">
+            <div class="textocontainer1">
+                <h2 style="font-weight: bold;">Quem somos?</h2>
+                <p>A Desloca Aê é uma equipe determinada a transformar a mobilidade, conectando pessoas ao seu destino e
+                    ao mundo ao seu redor. Buscamos soluções inteligentes e inovadoras para facilitar o transporte e
+                    aproximar os usuários de novas possibilidades, garantindo eficiência, conforto e praticidade.
+                    Queremos que cada deslocamento seja mais do que um trajeto, mas uma experiência de conexão com tudo
+                    o que o universo tem a oferecer.</p>
+            </div>
+            <div class="imagemcontainer1">
+                <img src="assets/img/CasalÔnibus.jpg" alt="Casal no Ônibus">
+            </div>
+        </div>
+
+        <h1 class="titulo" style="color: black; margin-top: 1rem; font-weight: bold;" id="valores">Nossos Valores</h1>
+
+        <div class="cards-about-container">
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Inovação</h2>
+                    <p>Buscamos novas soluções para transformar a mobilidade.</p>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Eficiência</h2>
+                    <p>Garantimos deslocamentos rápidos e otimizados.</p>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Inclusão</h2>
+                    <p>Transporte acessível e igualitário para todos.</p>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Responsabilidade</h2>
+                    <p>Compromisso com impacto positivo e sustentável.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1" id="missao">
+            <div class="textocontainer1">
+                <h2 style="font-weight: bold;">Nossa Missão</h2>
+                <p>A Desloca Aê existe para transformar a mobilidade, conectando pessoas ao seu destino de maneira
+                    eficiente e inovadora. Nossa missão é desenvolver soluções inteligentes que tornem o transporte mais
+                    acessível, confortável e prático, garantindo que cada deslocamento seja mais do que um simples
+                    trajeto, mas uma experiência que aproxima o usuário do mundo ao seu redor.</p>
+            </div>
+            <div class="imagemcontainer1">
+                <img src="assets/img/MulherÔnibus.jpg" alt="Casal no Ônibus">
+            </div>
+        </div>
+
+        <h1 class="titulo" style="color: black; margin-top: 1rem; font-weight: bold;" id="valores">Contate-nos</h1>
+
+        <div class="cards-about-container">
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Instagram</h2>
+                    <p>Siga-nos para acompanhar novidades e conteúdos exclusivos.</p>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>LinkedIn</h2>
+                    <p>Conecte-se conosco para oportunidades e insights do setor.</p>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="texto-card-about">
+                    <h2>Email</h2>
+                    <p>Entre em contato para suporte ou parcerias.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1" id="Slogan">
+            <div class="imagemcontainer1" id="deslocaimg">
+                <img src="assets/img/Desloca Aê.jpg" alt="Casal no Ônibus">
+            </div>
+            <div class="textocontainer1">
+                <h2 style="font-weight: bold;">Desloca Aê</h2>
+                <p style="font-style: italic;">"Transformando cada deslocamento em uma experiência única, conectando
+                    você ao seu destino com inovação, eficiência e praticidade."</p>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="iconesrodape">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="tel:+5531999999999">
+                    <i class="fas fa-phone fa-2x"></i>
+                </a>
+                <a href="mailto:contato@deslocaae.com">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>&copy; 2025 Desloca Aê. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+<script src="assets/js/navbar.js"></script>
+<script src="assets/js/auth.js"></script>
+
+</body>

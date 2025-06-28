@@ -1,0 +1,290 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "telefone": "444",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "telefone": "333",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "telefone": "555",
+      "email": "rommel@gmail.com",
+      "id": "3"
+    },
+    {
+      "id": "f6a3",
+      "nome": "Teste",
+      "email": "flavio@email.com",
+      "telefone": "311212121",
+      "senha": "senha"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "1",
+      "nome": "VITOR DE OLIVEIRA GUIMARÃES",
+      "email": "ovitordeoliveiraguimaraes@gmail.com",
+      "comentario": "wdsad",
+      "bairro": "adsad",
+      "nota": 5,
+      "data": "15/06/2025, 16:09:07"
+    }
+  ],
+  "rotas": [
+    {
+      "id": "1",
+      "numero_rota": "102",
+      "sentido": "Norte",
+      "trajeto": "Alvorada - Via Expressa",
+      "preco": "5.50"
+    },
+    {
+      "id": "2",
+      "numero_rota": "203",
+      "sentido": "Sul",
+      "trajeto": "Centro - Barreiro",
+      "preco": "4.75"
+    },
+    {
+      "id": "3",
+      "numero_rota": "304",
+      "sentido": "Leste",
+      "trajeto": "Savassi - Praça da Liberdade",
+      "preco": "6.00"
+    },
+    {
+      "id": "4",
+      "numero_rota": "405",
+      "sentido": "Oeste",
+      "trajeto": "Estação Diamante - Betim",
+      "preco": "7.25"
+    },
+    {
+      "id": "5",
+      "numero_rota": "506",
+      "sentido": "Norte",
+      "trajeto": "Pampulha - Aeroporto",
+      "preco": "8.00"
+    },
+    {
+      "id": "6",
+      "numero_rota": "607",
+      "sentido": "Sul",
+      "trajeto": "BH Shopping - Praça Sete",
+      "preco": "5.25"
+    },
+    {
+      "id": "7",
+      "numero_rota": "708",
+      "sentido": "Leste",
+      "trajeto": "Santa Tereza - Bairro Funcionários",
+      "preco": "4.90"
+    },
+    {
+      "id": "8",
+      "numero_rota": "809",
+      "sentido": "Oeste",
+      "trajeto": "Cidade Industrial - Contagem",
+      "preco": "6.75"
+    },
+    {
+      "id": "9",
+      "numero_rota": "910",
+      "sentido": "Norte",
+      "trajeto": "Venda Nova - Terminal Vilarinho",
+      "preco": "5.90"
+    },
+    {
+      "id": "10",
+      "numero_rota": "1011",
+      "sentido": "Sul",
+      "trajeto": "Nova Lima - Centro de BH",
+      "preco": "7.00"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "1",
+      "titulo": "Ônibus trava o trânsito na BR-381",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Um ônibus quebrou na pista central da BR-381 e causou grande congestionamento no início da manhã. O veículo ficou mais de duas horas parado até ser removido.",
+      "data": "14/06/2025"
+    },
+    {
+      "id": "2",
+      "titulo": "Obra no centro altera itinerário dos ônibus",
+      "autor": "Lucas Gabriel",
+      "conteudo": "A avenida principal da região central está passando por obras de recapeamento. Linhas de ônibus sofreram desvios temporários. Veja as mudanças no site da prefeitura.",
+      "data": "15/06/2025"
+    },
+    {
+      "id": "3",
+      "titulo": "Aumento no preço da passagem de ônibus entra em vigor",
+      "autor": "Lucas Gabriel",
+      "conteudo": "A tarifa do transporte público foi reajustada para R$ 5,20. O novo valor começou a valer hoje e gerou protestos em algumas regiões da cidade.",
+      "data": "15/06/2025"
+    },
+    {
+      "id": "4",
+      "titulo": "Motociclistas bloqueiam avenida por melhorias no trânsito",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Grupo de motociclistas fechou uma das principais avenidas cobrando melhorias na sinalização e redução de buracos na pista.",
+      "data": "14/06/2025"
+    },
+    {
+      "id": "5",
+      "titulo": "Chuva forte complica trânsito em várias regiões",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Temporais provocaram alagamentos e lentidão nas principais vias da cidade. Equipes da Defesa Civil foram acionadas.",
+      "data": "13/06/2025"
+    },
+    {
+      "id": "6",
+      "titulo": "Acidente entre carros e caminhão interdita via no bairro Industrial",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Uma colisão entre dois veículos e um caminhão paralisou o trânsito por mais de uma hora. Não houve feridos graves.",
+      "data": "13/06/2025"
+    },
+    {
+      "id": "7",
+      "titulo": "Nova ciclovia é inaugurada no bairro São José",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Ciclistas comemoram a entrega da nova ciclovia com 3 km de extensão. A obra foi feita com verba do governo estadual.",
+      "data": "12/06/2025"
+    },
+    {
+      "id": "8",
+      "titulo": "Greve de motoristas afeta 70% das linhas de ônibus",
+      "autor": "Lucas Gabriel",
+      "conteudo": "A paralisação por tempo indeterminado começou hoje de manhã. Trabalhadores exigem reajuste salarial e melhores condições.",
+      "data": "11/06/2025"
+    },
+    {
+      "id": "9",
+      "titulo": "Trânsito será alterado para festa junina no centro",
+      "autor": "Lucas Gabriel",
+      "conteudo": "A festa tradicional da cidade vai alterar rotas e fechar ruas entre os dias 20 e 23 de junho. Fique atento aos desvios.",
+      "data": "10/06/2025"
+    },
+    {
+      "id": "10",
+      "titulo": "Viaduto passa por vistoria após suspeita de rachaduras",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Engenheiros da prefeitura analisam estrutura de viaduto próximo à estação rodoviária. O tráfego foi parcialmente interrompido.",
+      "data": "09/06/2025"
+    },
+    {
+      "id": "11",
+      "titulo": "Aplicativo da prefeitura agora mostra tempo real dos ônibus",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Usuários do transporte público agora podem acompanhar horários e localização dos ônibus pelo app 'Desloca Digital'.",
+      "data": "08/06/2025"
+    },
+    {
+      "id": "12",
+      "titulo": "Nova rotatória promete desafogar tráfego no bairro Vista Alegre",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Obra foi concluída antes do prazo e já está operando. A expectativa é de redução de 30% no tempo de deslocamento.",
+      "data": "08/06/2025"
+    },
+    {
+      "id": "13",
+      "titulo": "Linha direta entre bairros é criada para facilitar deslocamentos",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Novo itinerário ligando os bairros Santa Rita e Palmeiras entra em operação hoje. Ônibus circulam de 15 em 15 minutos.",
+      "data": "07/06/2025"
+    },
+    {
+      "id": "14",
+      "titulo": "Projeto de mobilidade urbana prevê mais corredores exclusivos",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Plano da prefeitura inclui ampliação dos corredores de ônibus e faixas preferenciais para agilizar o transporte coletivo.",
+      "data": "06/06/2025"
+    },
+    {
+      "id": "15",
+      "titulo": "Problemas em semáforo causam lentidão na Av. Brasil",
+      "autor": "Lucas Gabriel",
+      "conteudo": "Semáforos ficaram desligados por quase três horas na principal avenida da cidade, causando confusão no trânsito.",
+      "data": "05/06/2025"
+    }
+  ],
+  "compromissos": [
+    {"id": "1",
+      "data": "2025-06-25",
+      "hora": "06:30",
+      "origem": "Casa",
+      "destino": "Escritório",
+      "usuarioId": "2"
+    },
+    {
+      "id": "2",
+      "data": "2025-06-25",
+      "hora": "12:00",
+      "origem": "Escritório",
+      "destino": "Casa",
+      "usuarioId": "2"
+    },
+    {
+      "id": "3",
+      "data": "2025-06-25",
+      "hora": "13:10",
+      "origem": "Casa",
+      "destino": "Shopping",
+      "usuarioId": "2"
+    },
+    {
+      "id": "4",
+      "data": "2025-06-25",
+      "hora": "18:00",
+      "origem": "Shopping",
+      "destino": "Casa",
+      "usuarioId": "2"
+    },
+    {
+      "id": "5",
+      "data": "2025-06-27",
+      "hora": "12:00",
+      "origem": "Casa",
+      "destino": "Academia",
+      "usuarioId": "1"
+    },
+    {
+      "id": "6",
+      "data": "2025-06-25",
+      "hora": "15:30",
+      "origem": "Academia",
+      "destino": "Casa",
+      "usuarioId": "1"
+    },
+    {
+      "id": "7",
+      "data": "2025-06-25",
+      "hora": "18:00",
+      "origem": "Casa",
+      "destino": "Escritório",
+      "usuarioId": "1"
+    },
+    {
+      "id": "8",
+      "data": "2025-06-25",
+      "hora": "20:00",
+      "origem": "Escritório",
+      "destino": "Restaurante",
+      "usuarioId": "1"
+    }
+  ]
+}
