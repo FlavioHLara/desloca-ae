@@ -34,7 +34,7 @@ function criarConta() {
     return;
   }
 
-  fetch("http://tiaw-jsonserver-x3yu.vercel.app/usuarios")
+  fetch("https://tiaw-jsonserver-x3yu.vercel.app/usuarios")
       .then(res => res.json())
       .then(usuarios => {
         const jaExiste = usuarios.find(user => user.email === email || user.telefone === telefone);
@@ -42,7 +42,7 @@ function criarConta() {
         if (jaExiste) {
           mensagem.textContent = "E-mail ou telefone já cadastrado.";
         } else {
-          fetch("http://tiaw-jsonserver-x3yu.vercel.app/usuarios", {
+          fetch("https://tiaw-jsonserver-x3yu.vercel.app/usuarios", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ nome, email, telefone, senha })
@@ -64,7 +64,7 @@ function login() {
   const senha = document.getElementById("login-senha").value;
   const mensagem = document.getElementById("mensagem-login");
 
-  fetch("http://tiaw-jsonserver-x3yu.vercel.app/usuarios")
+  fetch("https://tiaw-jsonserver-x3yu.vercel.app/usuarios")
       .then(res => res.json())
       .then(usuarios => {
         const usuario = usuarios.find(

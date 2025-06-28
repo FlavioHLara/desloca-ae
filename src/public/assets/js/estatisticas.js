@@ -1,4 +1,4 @@
-const API_URL = "http://tiaw-jsonserver-x3yu.vercel.app/compromissos";
+const API_URL = "https://tiaw-jsonserver-x3yu.vercel.app/compromissos";
 
 // Função para buscar compromissos
 const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));

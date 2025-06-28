@@ -9,7 +9,7 @@ const tableBody = document.querySelector('.agenda-compromissos tbody');
 const addBtn = document.querySelector('.agenda-btn');
 const proximoCard = document.querySelector('.agenda-card');
 let alertasEmitidos = {};
-const API_URL = "http://tiaw-jsonserver-x3yu.vercel.app/compromissos";
+const API_URL = "https://tiaw-jsonserver-x3yu.vercel.app/compromissos";
 
 const hoje = new Date().toISOString().split("T")[0]; // formato: 2025-06-25
 

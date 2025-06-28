@@ -151,7 +151,7 @@
   const lista = document.getElementById("listaFeedbacks");
   lista.innerHTML = "";
 
-  fetch("http://tiaw-jsonserver-x3yu.vercel.app/feedbacks")
+  fetch("https://tiaw-jsonserver-x3yu.vercel.app/feedbacks")
     .then(res => res.json())
     .then(feedbacks => {
       if (feedbacks.length === 0) {
@@ -180,7 +180,7 @@
 }
 
     function deletarFeedback(id) {
-  fetch(`http://tiaw-jsonserver-x3yu.vercel.app/feedbacks/${id}`, {
+  fetch(`https://tiaw-jsonserver-x3yu.vercel.app/feedbacks/${id}`, {
     method: "DELETE"
   })
   .then(() => carregarFeedbacks())

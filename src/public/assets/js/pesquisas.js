@@ -1,4 +1,4 @@
-const URL = "http://tiaw-jsonserver-x3yu.vercel.app/rotas" // Api Simulada
+const URL = "https://tiaw-jsonserver-x3yu.vercel.app/rotas" // Api Simulada
 
 async function obterRotas() {
     try {

@@ -1,4 +1,4 @@
-const URL = "http://tiaw-jsonserver-x3yu.vercel.app/noticias";
+const URL = "https://tiaw-jsonserver-x3yu.vercel.app/noticias";
 
 function adicionarNoticia() {
     const titulo = document.getElementById('titulo').value;
